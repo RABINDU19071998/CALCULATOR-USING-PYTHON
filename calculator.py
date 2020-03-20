@@ -1,4 +1,4 @@
-#Code to be paste
+
 
 from tkinter import*
 
@@ -6,7 +6,7 @@ root = Tk()
 root.title("My First Software")
 root.minsize(width=364, height=523)
 root.maxsize(width=364, height=523)
-#Code For Icon (Paste Here)
+
 icon = PhotoImage(file="download.png") #Png , Jpg , Other.
 
 root.tk.call('wm','iconphoto',root._w,icon)
